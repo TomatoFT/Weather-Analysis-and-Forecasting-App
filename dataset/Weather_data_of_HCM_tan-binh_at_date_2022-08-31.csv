@@ -1,49 +1,49 @@
-Time, Temperature, Dew Point, Humidity, Wind, Wind Speed, Wind Gust, Pressure, Precip., Condition, 
-12:00 AM, 79 °F, 75 °F, 89 %,  N, 8 mph, 0 mph, 29.76 in, 0.0 in, Thunder in, 
-12:30 AM, 77 °F, 73 °F, 89 %,  NNE, 6 mph, 0 mph, 29.79 in, 0.0 in, Thunder in, 
-1:00 AM, 79 °F, 73 °F, 83 %,  VAR, 3 mph, 0 mph, 29.76 in, 0.0 in, 
-1:30 AM, 79 °F, 75 °F, 89 %,  S, 7 mph, 0 mph, 29.73 in, 0.0 in, 
-2:00 AM, 79 °F, 75 °F, 89 %,  SSW, 6 mph, 0 mph, 29.73 in, 0.0 in, 
-2:30 AM, 77 °F, 75 °F, 94 %,  VAR, 1 mph, 0 mph, 29.73 in, 0.0 in, 
-3:00 AM, 79 °F, 75 °F, 89 %,  N, 2 mph, 0 mph, 29.73 in, 0.0 in, 
-3:30 AM, 79 °F, 77 °F, 94 %,  VAR, 2 mph, 0 mph, 29.76 in, 0.0 in, 
-4:00 AM, 77 °F, 75 °F, 94 %,  NW, 2 mph, 0 mph, 29.76 in, 0.0 in, 
-4:30 AM, 77 °F, 75 °F, 94 %,  VAR, 3 mph, 0 mph, 29.76 in, 0.0 in, 
-5:00 AM, 77 °F, 75 °F, 94 %,  VAR, 3 mph, 0 mph, 29.76 in, 0.0 in, 
-5:30 AM, 77 °F, 75 °F, 94 %,  VAR, 3 mph, 0 mph, 29.76 in, 0.0 in, 
-6:00 AM, 77 °F, 75 °F, 94 %,  NNE, 2 mph, 0 mph, 29.76 in, 0.0 in, 
-6:30 AM, 77 °F, 77 °F, 100 %,  N, 3 mph, 0 mph, 29.76 in, 0.0 in, 
-7:00 AM, 79 °F, 75 °F, 89 %,  NNE, 9 mph, 0 mph, 29.76 in, 0.0 in, 
-7:30 AM, 81 °F, 75 °F, 84 %,  NNE, 8 mph, 0 mph, 29.79 in, 0.0 in, 
-8:00 AM, 82 °F, 75 °F, 79 %,  N, 8 mph, 0 mph, 29.79 in, 0.0 in, 
-8:30 AM, 82 °F, 75 °F, 79 %,  N, 5 mph, 0 mph, 29.79 in, 0.0 in, 
-9:00 AM, 86 °F, 75 °F, 70 %,  VAR, 1 mph, 0 mph, 29.76 in, 0.0 in, 
-9:30 AM, 88 °F, 75 °F, 66 %,  VAR, 3 mph, 0 mph, 29.76 in, 0.0 in, 
-10:00 AM, 88 °F, 75 °F, 66 %,  SE, 2 mph, 0 mph, 29.73 in, 0.0 in, 
-10:30 AM, 90 °F, 73 °F, 59 %,  VAR, 2 mph, 0 mph, 29.73 in, 0.0 in, 
-11:00 AM, 90 °F, 73 °F, 59 %,  NNW, 2 mph, 15 mph, 29.73 in, 0.0 in, 
-11:30 AM, 91 °F, 73 °F, 55 %,  VAR, 3 mph, 0 mph, 29.70 in, 0.0 in, 
-12:00 PM, 91 °F, 73 °F, 55 %,  W, 5 mph, 0 mph, 29.70 in, 0.0 in, 
-12:30 PM, 90 °F, 75 °F, 62 %,  WNW, 5 mph, 0 mph, 29.70 in, 0.0 in, 
-1:00 PM, 90 °F, 77 °F, 66 %,  WNW, 5 mph, 0 mph, 29.67 in, 0.0 in, 
-1:30 PM, 90 °F, 77 °F, 66 %,  W, 5 mph, 0 mph, 29.67 in, 0.0 in, Light Rain, 
-2:00 PM, 88 °F, 75 °F, 66 %,  SW, 12 mph, 0 mph, 29.64 in, 0.0 in, Light Rain, 
-2:30 PM, 88 °F, 75 °F, 66 %,  SSW, 10 mph, 0 mph, 29.64 in, 0.0 in, 
-3:00 PM, 88 °F, 75 °F, 66 %,  SSE, 6 mph, 0 mph, 29.61 in, 0.0 in, 
-3:30 PM, 90 °F, 75 °F, 62 %,  VAR, 3 mph, 0 mph, 29.61 in, 0.0 in, 
-4:00 PM, 90 °F, 75 °F, 62 %,  VAR, 7 mph, 0 mph, 29.61 in, 0.0 in, Light Rain, 
-4:30 PM, 79 °F, 77 °F, 94 %,  N, 8 mph, 21 mph, 29.64 in, 0.0 in, Light Rain, 
-5:00 PM, 81 °F, 79 °F, 94 %,  VAR, 1 mph, 0 mph, 29.61 in, 0.0 in, 
-5:30 PM, 82 °F, 77 °F, 84 %,  CALM, 0 mph, 0 mph, 29.64 in, 0.0 in, 
-6:00 PM, 84 °F, 79 °F, 84 %,  VAR, 3 mph, 0 mph, 29.64 in, 0.0 in, 
-6:30 PM, 82 °F, 77 °F, 84 %,  S, 8 mph, 0 mph, 29.67 in, 0.0 in, 
-7:00 PM, 84 °F, 77 °F, 79 %,  SSW, 9 mph, 0 mph, 29.67 in, 0.0 in, 
-7:30 PM, 82 °F, 77 °F, 84 %,  SSW, 8 mph, 0 mph, 29.70 in, 0.0 in, Light Rain, 
-8:00 PM, 81 °F, 79 °F, 94 %,  VAR, 3 mph, 0 mph, 29.73 in, 0.0 in, Light Rain, 
-8:30 PM, 79 °F, 77 °F, 94 %,  ENE, 7 mph, 0 mph, 29.73 in, 0.0 in, Light Rain, 
-9:00 PM, 81 °F, 77 °F, 89 %,  S, 7 mph, 0 mph, 29.73 in, 0.0 in, 
-9:30 PM, 81 °F, 77 °F, 89 %,  VAR, 3 mph, 0 mph, 29.73 in, 0.0 in, 
-10:00 PM, 81 °F, 77 °F, 89 %,  VAR, 3 mph, 0 mph, 29.73 in, 0.0 in, 
-10:30 PM, 81 °F, 77 °F, 89 %,  VAR, 2 mph, 0 mph, 29.73 in, 0.0 in, 
-11:00 PM, 81 °F, 77 °F, 89 %,  VAR, 2 mph, 0 mph, 29.73 in, 0.0 in, 
-11:30 PM, 81 °F, 77 °F, 89 %,  VAR, 2 mph, 0 mph, 29.76 in, 0.0 in, 
+,Time,Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Date
+0,12:00 AM, 79 °F, 75 °F, 89 %,  N, 8 mph, 0 mph, 29.76 in, 0.0 in,2022-08-31
+1,12:30 AM, 77 °F, 73 °F, 89 %,  NNE, 6 mph, 0 mph, 29.79 in, 0.0 in,2022-08-31
+2,1:00 AM, 79 °F, 73 °F, 83 %,  VAR, 3 mph, 0 mph, 29.76 in, 0.0 in,2022-08-31
+3,1:30 AM, 79 °F, 75 °F, 89 %,  S, 7 mph, 0 mph, 29.73 in, 0.0 in,2022-08-31
+4,2:00 AM, 79 °F, 75 °F, 89 %,  SSW, 6 mph, 0 mph, 29.73 in, 0.0 in,2022-08-31
+5,2:30 AM, 77 °F, 75 °F, 94 %,  VAR, 1 mph, 0 mph, 29.73 in, 0.0 in,2022-08-31
+6,3:00 AM, 79 °F, 75 °F, 89 %,  N, 2 mph, 0 mph, 29.73 in, 0.0 in,2022-08-31
+7,3:30 AM, 79 °F, 77 °F, 94 %,  VAR, 2 mph, 0 mph, 29.76 in, 0.0 in,2022-08-31
+8,4:00 AM, 77 °F, 75 °F, 94 %,  NW, 2 mph, 0 mph, 29.76 in, 0.0 in,2022-08-31
+9,4:30 AM, 77 °F, 75 °F, 94 %,  VAR, 3 mph, 0 mph, 29.76 in, 0.0 in,2022-08-31
+10,5:00 AM, 77 °F, 75 °F, 94 %,  VAR, 3 mph, 0 mph, 29.76 in, 0.0 in,2022-08-31
+11,5:30 AM, 77 °F, 75 °F, 94 %,  VAR, 3 mph, 0 mph, 29.76 in, 0.0 in,2022-08-31
+12,6:00 AM, 77 °F, 75 °F, 94 %,  NNE, 2 mph, 0 mph, 29.76 in, 0.0 in,2022-08-31
+13,6:30 AM, 77 °F, 77 °F, 100 %,  N, 3 mph, 0 mph, 29.76 in, 0.0 in,2022-08-31
+14,7:00 AM, 79 °F, 75 °F, 89 %,  NNE, 9 mph, 0 mph, 29.76 in, 0.0 in,2022-08-31
+15,7:30 AM, 81 °F, 75 °F, 84 %,  NNE, 8 mph, 0 mph, 29.79 in, 0.0 in,2022-08-31
+16,8:00 AM, 82 °F, 75 °F, 79 %,  N, 8 mph, 0 mph, 29.79 in, 0.0 in,2022-08-31
+17,8:30 AM, 82 °F, 75 °F, 79 %,  N, 5 mph, 0 mph, 29.79 in, 0.0 in,2022-08-31
+18,9:00 AM, 86 °F, 75 °F, 70 %,  VAR, 1 mph, 0 mph, 29.76 in, 0.0 in,2022-08-31
+19,9:30 AM, 88 °F, 75 °F, 66 %,  VAR, 3 mph, 0 mph, 29.76 in, 0.0 in,2022-08-31
+20,10:00 AM, 88 °F, 75 °F, 66 %,  SE, 2 mph, 0 mph, 29.73 in, 0.0 in,2022-08-31
+21,10:30 AM, 90 °F, 73 °F, 59 %,  VAR, 2 mph, 0 mph, 29.73 in, 0.0 in,2022-08-31
+22,11:00 AM, 90 °F, 73 °F, 59 %,  NNW, 2 mph, 15 mph, 29.73 in, 0.0 in,2022-08-31
+23,11:30 AM, 91 °F, 73 °F, 55 %,  VAR, 3 mph, 0 mph, 29.70 in, 0.0 in,2022-08-31
+24,12:00 PM, 91 °F, 73 °F, 55 %,  W, 5 mph, 0 mph, 29.70 in, 0.0 in,2022-08-31
+25,12:30 PM, 90 °F, 75 °F, 62 %,  WNW, 5 mph, 0 mph, 29.70 in, 0.0 in,2022-08-31
+26,1:00 PM, 90 °F, 77 °F, 66 %,  WNW, 5 mph, 0 mph, 29.67 in, 0.0 in,2022-08-31
+27,1:30 PM, 90 °F, 77 °F, 66 %,  W, 5 mph, 0 mph, 29.67 in, 0.0 in,2022-08-31
+28,2:00 PM, 88 °F, 75 °F, 66 %,  SW, 12 mph, 0 mph, 29.64 in, 0.0 in,2022-08-31
+29,2:30 PM, 88 °F, 75 °F, 66 %,  SSW, 10 mph, 0 mph, 29.64 in, 0.0 in,2022-08-31
+30,3:00 PM, 88 °F, 75 °F, 66 %,  SSE, 6 mph, 0 mph, 29.61 in, 0.0 in,2022-08-31
+31,3:30 PM, 90 °F, 75 °F, 62 %,  VAR, 3 mph, 0 mph, 29.61 in, 0.0 in,2022-08-31
+32,4:00 PM, 90 °F, 75 °F, 62 %,  VAR, 7 mph, 0 mph, 29.61 in, 0.0 in,2022-08-31
+33,4:30 PM, 79 °F, 77 °F, 94 %,  N, 8 mph, 21 mph, 29.64 in, 0.0 in,2022-08-31
+34,5:00 PM, 81 °F, 79 °F, 94 %,  VAR, 1 mph, 0 mph, 29.61 in, 0.0 in,2022-08-31
+35,5:30 PM, 82 °F, 77 °F, 84 %,  CALM, 0 mph, 0 mph, 29.64 in, 0.0 in,2022-08-31
+36,6:00 PM, 84 °F, 79 °F, 84 %,  VAR, 3 mph, 0 mph, 29.64 in, 0.0 in,2022-08-31
+37,6:30 PM, 82 °F, 77 °F, 84 %,  S, 8 mph, 0 mph, 29.67 in, 0.0 in,2022-08-31
+38,7:00 PM, 84 °F, 77 °F, 79 %,  SSW, 9 mph, 0 mph, 29.67 in, 0.0 in,2022-08-31
+39,7:30 PM, 82 °F, 77 °F, 84 %,  SSW, 8 mph, 0 mph, 29.70 in, 0.0 in,2022-08-31
+40,8:00 PM, 81 °F, 79 °F, 94 %,  VAR, 3 mph, 0 mph, 29.73 in, 0.0 in,2022-08-31
+41,8:30 PM, 79 °F, 77 °F, 94 %,  ENE, 7 mph, 0 mph, 29.73 in, 0.0 in,2022-08-31
+42,9:00 PM, 81 °F, 77 °F, 89 %,  S, 7 mph, 0 mph, 29.73 in, 0.0 in,2022-08-31
+43,9:30 PM, 81 °F, 77 °F, 89 %,  VAR, 3 mph, 0 mph, 29.73 in, 0.0 in,2022-08-31
+44,10:00 PM, 81 °F, 77 °F, 89 %,  VAR, 3 mph, 0 mph, 29.73 in, 0.0 in,2022-08-31
+45,10:30 PM, 81 °F, 77 °F, 89 %,  VAR, 2 mph, 0 mph, 29.73 in, 0.0 in,2022-08-31
+46,11:00 PM, 81 °F, 77 °F, 89 %,  VAR, 2 mph, 0 mph, 29.73 in, 0.0 in,2022-08-31
+47,11:30 PM, 81 °F, 77 °F, 89 %,  VAR, 2 mph, 0 mph, 29.76 in, 0.0 in,2022-08-31

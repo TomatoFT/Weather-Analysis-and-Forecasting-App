@@ -1976,3 +1976,6 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/PTWQOrfCOp17EyrMcPe
 [Child 12973, MediaDecoderStateMachine #1] WARNING: Decoder=7efd71868400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-d2rqjR/firefox-106.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:151
 JavaScript error: https://www.wunderground.com/wu-next/assets/8c6685e93/main-es2015.506bd4979953de6bb882.js, line 1: TypeError: o is undefined
 JavaScript error: https://www.wunderground.com/wu-next/assets/8c6685e93/main-es2015.506bd4979953de6bb882.js, line 1: TypeError: o is undefined
+1667629695758	Marionette	INFO	Stopped listening on port 36841
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
