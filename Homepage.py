@@ -7,3 +7,14 @@ st.set_page_config(
 )
 st.title('Welcome you to our Apps')
 st.sidebar.success('Select an application below to use')
+
+st.markdown(
+    """
+<style>
+.css-1aumxhk {
+    background-color: #D4AF37;
+}
+</style>
+""",
+    unsafe_allow_html=True,
+)
