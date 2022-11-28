@@ -12,8 +12,12 @@ df_list = []
 
 for file in filelist:
     df = pd.read_csv(file)
+    if ' ' in df.columns:
+        del df[' ']
+    if 'Unnamed: 0' in df.columns:
+        del df['Unnamed: 0']    
     df_list.append(df)
 
 new_df = pd.concat(df_list, ignore_index=True)
-del new_df['Unnamed: 0']
+# del new_df['Unnamed: 0']
 new_df.to_csv('Total_weather_dataset_in_HCM.csv')
