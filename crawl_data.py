@@ -6,12 +6,13 @@ from datetime import timedelta
 import pandas as pd
 import os
 class Data_Processing: 
-    def __init__(self, days=1000, driver=webdriver.Firefox()):
+    def __init__(self,place='tan-binh', days=1000, driver=webdriver.Firefox()):
         self.days = days
         self.driver = driver
         self.time_step = []
         self.list_file = []
         self.board = 0
+        self.place = place
 
     def crawl_data(self, start_from='now'):
         for i in range(0,self.days):
@@ -22,13 +23,12 @@ class Data_Processing:
             self.time_step.append(time.date())
     
         for date in self.time_step:
-            place = 'tan-binh'
             self.board +=1
             sleep_time = 4.5
             if self.board % 150 == 0:
                 sleep_time += 0.5
-            self.driver.get(f'https://www.wunderground.com/history/daily/vn/{place}/VVTS/date/{date}')
-            print(f'https://www.wunderground.com/history/daily/vn/{place}/VVTS/date/{date}')
+            self.driver.get(f'https://www.wunderground.com/history/daily/vn/{self.place}/VVTS/date/{date}')
+            print(f'https://www.wunderground.com/history/daily/vn/{self.place}/VVTS/date/{date}')
             sleep(sleep_time)
             content = self.driver.find_elements(By.XPATH, value="/html/body/app-root/app-history/one-column-layout/wu-header/sidenav/mat-sidenav-container/mat-sidenav-content/div/section/div[2]/div[1]/div[5]/div[1]/div/lib-city-history-observation/div/div[2]")
             header, data, real_data = [], [], []
@@ -67,7 +67,7 @@ class Data_Processing:
                 real_data.append(col)
 
 
-            file = open(f'dataset/Weather_data_of_HCM_{place}_at_date_{date}.csv', "w")
+            file = open(f'dataset/Weather_data_of_HCM_{self.place}_at_date_{date}.csv', "w")
             for head in header:
                 file.write(head)
                 file.write(', ')
@@ -79,7 +79,7 @@ class Data_Processing:
                     file.write(', ')
                 file.write('\n')
             file.close()
-            self.list_file.append(f'dataset/Weather_data_of_HCM_{place}_at_date_{date}.csv')
+            self.list_file.append(f'dataset/Weather_data_of_HCM_{self.place}_at_date_{date}.csv')
         self.driver.close()
 
     def pre_processing(self):
