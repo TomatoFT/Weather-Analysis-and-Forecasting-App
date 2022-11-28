@@ -1,49 +1,49 @@
-,Time,Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Condition,Date,DateTime
-0,12:00 AM,79.0,79.0,100, VAR,1,0.0,29.76,0.0, Partly Cloudy,2022-11-18,2022-11-18 00:00:00
-1,12:30 AM,79.0,79.0,100, VAR,2,0.0,29.76,0.0, Partly Cloudy,2022-11-18,2022-11-18 00:30:00
-2,1:00 AM,79.0,79.0,100, WNW,2,0.0,29.76,0.0, Partly Cloudy,2022-11-18,2022-11-18 01:00:00
-3,1:30 AM,79.0,79.0,100, VAR,1,0.0,29.76,0.0, Partly Cloudy,2022-11-18,2022-11-18 01:30:00
-4,2:00 AM,79.0,79.0,100, VAR,3,0.0,29.76,0.0, Partly Cloudy,2022-11-18,2022-11-18 02:00:00
-5,2:30 AM,79.0,79.0,100, VAR,3,0.0,29.73,0.0, Partly Cloudy,2022-11-18,2022-11-18 02:30:00
-6,3:00 AM,79.0,79.0,100, N,5,0.0,29.73,0.0, Partly Cloudy,2022-11-18,2022-11-18 03:00:00
-7,3:30 AM,79.0,77.0,94, N,5,0.0,29.73,0.0, Partly Cloudy,2022-11-18,2022-11-18 03:30:00
-8,4:00 AM,79.0,77.0,94, NE,5,0.0,29.73,0.0, Partly Cloudy,2022-11-18,2022-11-18 04:00:00
-9,4:30 AM,79.0,77.0,94, NNE,5,0.0,29.73,0.0, Partly Cloudy,2022-11-18,2022-11-18 04:30:00
-10,5:00 AM,79.0,77.0,94, NNE,5,0.0,29.73,0.0, Partly Cloudy,2022-11-18,2022-11-18 05:00:00
-11,5:30 AM,79.0,77.0,94, NE,5,0.0,29.76,0.0, Partly Cloudy,2022-11-18,2022-11-18 05:30:00
-12,6:00 AM,79.0,77.0,94, VAR,3,0.0,29.76,0.0, Fair,2022-11-18,2022-11-18 06:00:00
-13,6:30 AM,79.0,79.0,100, VAR,3,0.0,29.76,0.0, Fair,2022-11-18,2022-11-18 06:30:00
-14,7:00 AM,81.0,79.0,94, NNE,5,0.0,29.76,0.0, Fair,2022-11-18,2022-11-18 07:00:00
-15,7:30 AM,82.0,81.0,94, NNE,5,0.0,29.79,0.0, Fair,2022-11-18,2022-11-18 07:30:00
-16,8:00 AM,82.0,79.0,89, NNE,5,0.0,29.79,0.0, Fair,2022-11-18,2022-11-18 08:00:00
-17,8:30 AM,84.0,79.0,84, N,5,0.0,29.79,0.0, Fair,2022-11-18,2022-11-18 08:30:00
-18,9:00 AM,86.0,79.0,79, VAR,6,0.0,29.79,0.0, Fair,2022-11-18,2022-11-18 09:00:00
-19,9:30 AM,88.0,79.0,75, N,5,18.0,29.79,0.0, Partly Cloudy,2022-11-18,2022-11-18 09:30:00
-20,10:00 AM,88.0,81.0,79, NNW,5,0.0,29.79,0.0, Partly Cloudy,2022-11-18,2022-11-18 10:00:00
-21,10:30 AM,90.0,81.0,75, NW,5,0.0,29.79,0.0, Partly Cloudy,2022-11-18,2022-11-18 10:30:00
-22,11:00 AM,90.0,79.0,70, VAR,2,0.0,29.79,0.0, Partly Cloudy,2022-11-18,2022-11-18 11:00:00
-23,11:30 AM,91.0,79.0,66, VAR,3,0.0,29.76,0.0, Partly Cloudy,2022-11-18,2022-11-18 11:30:00
-24,12:00 PM,90.0,77.0,66, VAR,2,0.0,29.73,0.0, Mostly Cloudy,2022-11-18,2022-11-18 12:00:00
-25,12:30 PM,91.0,77.0,63, VAR,2,0.0,29.73,0.0, Mostly Cloudy,2022-11-18,2022-11-18 12:30:00
-26,1:00 PM,91.0,77.0,63, SE,7,0.0,29.7,0.0, Mostly Cloudy,2022-11-18,2022-11-18 13:00:00
-27,1:30 PM,91.0,75.0,59, SE,6,0.0,29.67,0.0, Mostly Cloudy,2022-11-18,2022-11-18 13:30:00
-28,2:00 PM,91.0,75.0,59, SSE,6,0.0,29.67,0.0, Mostly Cloudy,2022-11-18,2022-11-18 14:00:00
-29,2:30 PM,88.0,79.0,75, S,5,0.0,29.67,0.0, Mostly Cloudy,2022-11-18,2022-11-18 14:30:00
-30,3:00 PM,88.0,79.0,75, SSW,10,0.0,29.67,0.0, Partly Cloudy,2022-11-18,2022-11-18 15:00:00
-31,3:30 PM,86.0,81.0,84, SSW,12,0.0,29.67,0.0, Light Rain Shower,2022-11-18,2022-11-18 15:30:00
-32,4:00 PM,86.0,81.0,84, SSW,9,0.0,29.67,0.0, Partly Cloudy,2022-11-18,2022-11-18 16:00:00
-33,4:30 PM,84.0,79.0,84, SSW,13,35.0,29.7,0.0, Partly Cloudy,2022-11-18,2022-11-18 16:30:00
-34,5:00 PM,84.0,79.0,84, S,8,0.0,29.7,0.0, Partly Cloudy,2022-11-18,2022-11-18 17:00:00
-35,5:30 PM,84.0,79.0,84, S,5,0.0,29.73,0.0, Mostly Cloudy,2022-11-18,2022-11-18 17:30:00
-36,6:00 PM,82.0,79.0,89, S,7,0.0,29.73,0.0, Light Rain,2022-11-18,2022-11-18 18:00:00
-37,6:30 PM,82.0,79.0,89, SW,5,0.0,29.73,0.0, Light Rain,2022-11-18,2022-11-18 18:30:00
-38,7:00 PM,82.0,79.0,89, SW,6,0.0,29.73,0.0, Mostly Cloudy,2022-11-18,2022-11-18 19:00:00
-39,7:30 PM,82.0,79.0,89, W,6,0.0,29.76,0.0, Partly Cloudy,2022-11-18,2022-11-18 19:30:00
-40,8:00 PM,82.0,79.0,89, WSW,6,0.0,29.76,0.0, Partly Cloudy,2022-11-18,2022-11-18 20:00:00
-41,8:30 PM,82.0,79.0,89, SW,6,0.0,29.76,0.0, Mostly Cloudy,2022-11-18,2022-11-18 20:30:00
-42,9:00 PM,82.0,79.0,89, W,5,0.0,29.79,0.0, Mostly Cloudy,2022-11-18,2022-11-18 21:00:00
-43,9:30 PM,81.0,79.0,94, WNW,5,0.0,29.79,0.0, Rain Shower,2022-11-18,2022-11-18 21:30:00
-44,10:00 PM,79.0,79.0,100, WNW,3,0.0,29.79,0.0, Rain Shower,2022-11-18,2022-11-18 22:00:00
-45,10:30 PM,81.0,79.0,94, VAR,3,0.0,29.79,0.0, Thunder in the Vicinity,2022-11-18,2022-11-18 22:30:00
-46,11:00 PM,79.0,79.0,100, VAR,3,0.0,29.79,0.0, T-Storm,2022-11-18,2022-11-18 23:00:00
-47,11:30 PM,77.0,77.0,100, VAR,3,0.0,29.79,0.0, T-Storm,2022-11-18,2022-11-18 23:30:00
+Time, Temperature, Dew Point, Humidity, Wind, Wind Speed, Wind Gust, Pressure, Precip., Condition, 
+12:00 AM, 79 °F, 79 °F, 100 %, VAR, 1 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy, 
+12:30 AM, 79 °F, 79 °F, 100 %, VAR, 2 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy, 
+1:00 AM, 79 °F, 79 °F, 100 %, WNW, 2 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy, 
+1:30 AM, 79 °F, 79 °F, 100 %, VAR, 1 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy, 
+2:00 AM, 79 °F, 79 °F, 100 %, VAR, 3 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy, 
+2:30 AM, 79 °F, 79 °F, 100 %, VAR, 3 mph, 0 mph, 29.73 in, 0.0 in, Partly Cloudy, 
+3:00 AM, 79 °F, 79 °F, 100 %, N, 5 mph, 0 mph, 29.73 in, 0.0 in, Partly Cloudy, 
+3:30 AM, 79 °F, 77 °F, 94 %, N, 5 mph, 0 mph, 29.73 in, 0.0 in, Partly Cloudy, 
+4:00 AM, 79 °F, 77 °F, 94 %, NE, 5 mph, 0 mph, 29.73 in, 0.0 in, Partly Cloudy, 
+4:30 AM, 79 °F, 77 °F, 94 %, NNE, 5 mph, 0 mph, 29.73 in, 0.0 in, Partly Cloudy, 
+5:00 AM, 79 °F, 77 °F, 94 %, NNE, 5 mph, 0 mph, 29.73 in, 0.0 in, Partly Cloudy, 
+5:30 AM, 79 °F, 77 °F, 94 %, NE, 5 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy, 
+6:00 AM, 79 °F, 77 °F, 94 %, VAR, 3 mph, 0 mph, 29.76 in, 0.0 in, Fair, 
+6:30 AM, 79 °F, 79 °F, 100 %, VAR, 3 mph, 0 mph, 29.76 in, 0.0 in, Fair, 
+7:00 AM, 81 °F, 79 °F, 94 %, NNE, 5 mph, 0 mph, 29.76 in, 0.0 in, Fair, 
+7:30 AM, 82 °F, 81 °F, 94 %, NNE, 5 mph, 0 mph, 29.79 in, 0.0 in, Fair, 
+8:00 AM, 82 °F, 79 °F, 89 %, NNE, 5 mph, 0 mph, 29.79 in, 0.0 in, Fair, 
+8:30 AM, 84 °F, 79 °F, 84 %, N, 5 mph, 0 mph, 29.79 in, 0.0 in, Fair, 
+9:00 AM, 86 °F, 79 °F, 79 %, VAR, 6 mph, 0 mph, 29.79 in, 0.0 in, Fair, 
+9:30 AM, 88 °F, 79 °F, 75 %, N, 5 mph, 18 mph, 29.79 in, 0.0 in, Partly Cloudy, 
+10:00 AM, 88 °F, 81 °F, 79 %, NNW, 5 mph, 0 mph, 29.79 in, 0.0 in, Partly Cloudy, 
+10:30 AM, 90 °F, 81 °F, 75 %, NW, 5 mph, 0 mph, 29.79 in, 0.0 in, Partly Cloudy, 
+11:00 AM, 90 °F, 79 °F, 70 %, VAR, 2 mph, 0 mph, 29.79 in, 0.0 in, Partly Cloudy, 
+11:30 AM, 91 °F, 79 °F, 66 %, VAR, 3 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy, 
+12:00 PM, 90 °F, 77 °F, 66 %, VAR, 2 mph, 0 mph, 29.73 in, 0.0 in, Mostly Cloudy, 
+12:30 PM, 91 °F, 77 °F, 63 %, VAR, 2 mph, 0 mph, 29.73 in, 0.0 in, Mostly Cloudy, 
+1:00 PM, 91 °F, 77 °F, 63 %, SE, 7 mph, 0 mph, 29.70 in, 0.0 in, Mostly Cloudy, 
+1:30 PM, 91 °F, 75 °F, 59 %, SE, 6 mph, 0 mph, 29.67 in, 0.0 in, Mostly Cloudy, 
+2:00 PM, 91 °F, 75 °F, 59 %, SSE, 6 mph, 0 mph, 29.67 in, 0.0 in, Mostly Cloudy, 
+2:30 PM, 88 °F, 79 °F, 75 %, S, 5 mph, 0 mph, 29.67 in, 0.0 in, Mostly Cloudy, 
+3:00 PM, 88 °F, 79 °F, 75 %, SSW, 10 mph, 0 mph, 29.67 in, 0.0 in, Partly Cloudy, 
+3:30 PM, 86 °F, 81 °F, 84 %, SSW, 12 mph, 0 mph, 29.67 in, 0.0 in, Light Rain Shower, 
+4:00 PM, 86 °F, 81 °F, 84 %, SSW, 9 mph, 0 mph, 29.67 in, 0.0 in, Partly Cloudy, 
+4:30 PM, 84 °F, 79 °F, 84 %, SSW, 13 mph, 35 mph, 29.70 in, 0.0 in, Partly Cloudy, 
+5:00 PM, 84 °F, 79 °F, 84 %, S, 8 mph, 0 mph, 29.70 in, 0.0 in, Partly Cloudy, 
+5:30 PM, 84 °F, 79 °F, 84 %, S, 5 mph, 0 mph, 29.73 in, 0.0 in, Mostly Cloudy, 
+6:00 PM, 82 °F, 79 °F, 89 %, S, 7 mph, 0 mph, 29.73 in, 0.0 in, Light Rain, 
+6:30 PM, 82 °F, 79 °F, 89 %, SW, 5 mph, 0 mph, 29.73 in, 0.0 in, Light Rain, 
+7:00 PM, 82 °F, 79 °F, 89 %, SW, 6 mph, 0 mph, 29.73 in, 0.0 in, Mostly Cloudy, 
+7:30 PM, 82 °F, 79 °F, 89 %, W, 6 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy, 
+8:00 PM, 82 °F, 79 °F, 89 %, WSW, 6 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy, 
+8:30 PM, 82 °F, 79 °F, 89 %, SW, 6 mph, 0 mph, 29.76 in, 0.0 in, Mostly Cloudy, 
+9:00 PM, 82 °F, 79 °F, 89 %, W, 5 mph, 0 mph, 29.79 in, 0.0 in, Mostly Cloudy, 
+9:30 PM, 81 °F, 79 °F, 94 %, WNW, 5 mph, 0 mph, 29.79 in, 0.0 in, Rain Shower, 
+10:00 PM, 79 °F, 79 °F, 100 %, WNW, 3 mph, 0 mph, 29.79 in, 0.0 in, Rain Shower, 
+10:30 PM, 81 °F, 79 °F, 94 %, VAR, 3 mph, 0 mph, 29.79 in, 0.0 in, Thunder in the Vicinity, 
+11:00 PM, 79 °F, 79 °F, 100 %, VAR, 3 mph, 0 mph, 29.79 in, 0.0 in, T-Storm, 
+11:30 PM, 77 °F, 77 °F, 100 %, VAR, 3 mph, 0 mph, 29.79 in, 0.0 in, T-Storm, 

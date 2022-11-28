@@ -1,8 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
+import time
 from datetime import datetime
 from datetime import timedelta
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import os
 class Data_Processing: 
@@ -17,20 +20,22 @@ class Data_Processing:
     def crawl_data(self, start_from='now'):
         for i in range(0,self.days):
             now = datetime.now() if start_from =='now' else datetime(start_from[0], start_from[1], start_from[2])
-            time = now.strftime("%Y-%m-%d")
-            time = datetime.strptime(time, "%Y-%m-%d")
-            time = time - timedelta(days=i)
-            self.time_step.append(time.date())
+            timer = now.strftime("%Y-%m-%d")
+            timer = datetime.strptime(timer, "%Y-%m-%d")
+            timer = timer - timedelta(days=i)
+            self.time_step.append(timer.date())
     
         for date in self.time_step:
+            start = time.time()
             self.board +=1
             sleep_time = 4.5
             if self.board % 150 == 0:
                 sleep_time += 0.5
             self.driver.get(f'https://www.wunderground.com/history/daily/vn/{self.place}/VVTS/date/{date}')
             print(f'https://www.wunderground.com/history/daily/vn/{self.place}/VVTS/date/{date}')
-            sleep(sleep_time)
-            content = self.driver.find_elements(By.XPATH, value="/html/body/app-root/app-history/one-column-layout/wu-header/sidenav/mat-sidenav-container/mat-sidenav-content/div/section/div[2]/div[1]/div[5]/div[1]/div/lib-city-history-observation/div/div[2]")
+            # sleep(sleep_time)
+            # content = self.driver.find_elements(By.XPATH, value="/html/body/app-root/app-history/one-column-layout/wu-header/sidenav/mat-sidenav-container/mat-sidenav-content/div/section/div[2]/div[1]/div[5]/div[1]/div/lib-city-history-observation/div/div[2]")
+            content = WebDriverWait(self.driver, 30).until(EC.presence_of_all_elements_located((By.XPATH,"/html/body/app-root/app-history/one-column-layout/wu-header/sidenav/mat-sidenav-container/mat-sidenav-content/div/section/div[2]/div[1]/div[5]/div[1]/div/lib-city-history-observation/div/div[2]")))
             header, data, real_data = [], [], []
 
             for con in content:
@@ -80,6 +85,7 @@ class Data_Processing:
                 file.write('\n')
             file.close()
             self.list_file.append(f'dataset/Weather_data_of_HCM_{self.place}_at_date_{date}.csv')
+            print('processing_time:', time.time() - start)
         self.driver.close()
 
     def pre_processing(self):
