@@ -1,0 +1,4 @@
+,Time,Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Condition,Date,DateTime
+0,10:30 PM,82.0,73.0,74, SE,7,0.0,29.76,0.0, Partly Cloudy,2020-11-18,2020-11-18 22:30:00
+1,11:00 PM,82.0,73.0,74, SE,2,0.0,29.76,0.0, Partly Cloudy,2020-11-18,2020-11-18 23:00:00
+2,11:30 PM,82.0,73.0,74, VAR,1,0.0,29.76,0.0, Partly Cloudy,2020-11-18,2020-11-18 23:30:00

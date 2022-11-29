@@ -9,11 +9,11 @@ from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import os
 class Data_Processing: 
-    def __init__(self,place='tan-binh', days=1000, driver=webdriver.Firefox()):
+    def __init__(self, list_file=[] ,place='tan-binh', days=1000, driver=webdriver.Firefox()):
         self.days = days
         self.driver = driver
         self.time_step = []
-        self.list_file = []
+        self.list_file = list_file
         self.board = 0
         self.place = place
 
@@ -24,8 +24,9 @@ class Data_Processing:
             timer = datetime.strptime(timer, "%Y-%m-%d")
             timer = timer - timedelta(days=i)
             self.time_step.append(timer.date())
-    
+        countDate = 0
         for date in self.time_step:
+            countDate +=1
             start = time.time()
             self.board +=1
             sleep_time = 4.5
@@ -33,9 +34,7 @@ class Data_Processing:
                 sleep_time += 0.5
             self.driver.get(f'https://www.wunderground.com/history/daily/vn/{self.place}/VVTS/date/{date}')
             print(f'https://www.wunderground.com/history/daily/vn/{self.place}/VVTS/date/{date}')
-            # sleep(sleep_time)
-            # content = self.driver.find_elements(By.XPATH, value="/html/body/app-root/app-history/one-column-layout/wu-header/sidenav/mat-sidenav-container/mat-sidenav-content/div/section/div[2]/div[1]/div[5]/div[1]/div/lib-city-history-observation/div/div[2]")
-            content = WebDriverWait(self.driver, 30).until(EC.presence_of_all_elements_located((By.XPATH,"/html/body/app-root/app-history/one-column-layout/wu-header/sidenav/mat-sidenav-container/mat-sidenav-content/div/section/div[2]/div[1]/div[5]/div[1]/div/lib-city-history-observation/div/div[2]")))
+            content = WebDriverWait(self.driver, 3000).until(EC.presence_of_all_elements_located((By.XPATH,"/html/body/app-root/app-history/one-column-layout/wu-header/sidenav/mat-sidenav-container/mat-sidenav-content/div/section/div[2]/div[1]/div[5]/div[1]/div/lib-city-history-observation/div/div[2]")))
             header, data, real_data = [], [], []
 
             for con in content:
@@ -85,25 +84,31 @@ class Data_Processing:
                 file.write('\n')
             file.close()
             self.list_file.append(f'dataset/Weather_data_of_HCM_{self.place}_at_date_{date}.csv')
-            print('processing_time:', time.time() - start)
+            print('processing_time:', time.time() - start, ' seconds. ', 'Completed: ',countDate, '/ ', self.days)
         self.driver.close()
 
     def pre_processing(self):
         filelist = self.list_file
-        c = 0
-        # for file in filelist:
-        #     filelist[c] = 'dataset/' + file
-        #     c+=1
+        print(filelist)
+        unnamed_list = []
         filelist = sorted(filelist, key=os.path.getctime)
-
+        c=0
         for file in filelist:
             df = pd.read_csv(file,  on_bad_lines='skip')
+            # df.columns = ['Time', 'Temperature', 'Dew Point', 'Humidity', 'Wind','Wind Speed', 'Wind Gust', 'Pressure', 'Precip.', 'Condition',' ']
+            df.rename(columns={' Temperature': 'Temperature', ' Dew Point': 'Dew Point', ' Humidity': 'Humidity', ' Wind': 'Wind',' Wind Speed': 'Wind Speed',
+                                ' Wind Gust': 'Wind Gust', ' Pressure': 'Pressure', ' Precip.': 'Precip.', ' Condition': 'Condition'}, inplace=True)
             print(df.columns)
-            df.columns = ['Time', 'Temperature', 'Dew Point', 'Humidity', 'Wind','Wind Speed', 'Wind Gust', 'Pressure', 'Precip.', 'Condition',' ']
             if ' ' in df.columns:
                 del df[' ']
-            if 'Unnamed 0' in df.columns:
-                del df['Unnamed 0']
+            for col in df.columns:
+                if 'Unnamed: 0' in col:
+                    unnamed_list.append(col)
+            for unname in unnamed_list:
+                try: 
+                    del df[unname]
+                except:
+                    pass
             df['Date']=file[-14:-4]
             for i in range(0, len(df['Temperature'])):
                 df['Temperature'][i] = float(df['Temperature'][i][1:-3])
@@ -114,13 +119,12 @@ class Data_Processing:
                 df['Precip.'][i] = float(df['Precip.'][i][1:-2])
                 df['Wind Gust'][i] = float(df['Wind Gust'][i][1:-3])
             df['DateTime']=pd.to_datetime(df['Date'] + ' ' + df['Time'])
-            # df['Temperature']=round(float((df['Temperature']-32)*5/9),1)
-            # df['Dew Point']=round(float((df['Dew Point']-32))*5/9,1)
             df.to_csv(file)
 
     def merge_data(self):
         filelist = os.listdir('dataset')
         c = 0
+        name_list = []
         for file in filelist:
             filelist[c] = 'dataset/' + file
             c+=1
@@ -134,6 +138,8 @@ class Data_Processing:
             if 'Unnamed: 0' in df.columns:
                 del df['Unnamed: 0']
             df_list.append(df)
+            name_list.append(df.columns)
+        # print(name_list)
 
         new_df = pd.concat(df_list, ignore_index=True)
         new_df.to_csv('Total_weather_dataset_in_HCM.csv')

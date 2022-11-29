@@ -1,0 +1,49 @@
+,Time,Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Condition,Date,DateTime
+0,12:00 AM, 84 °F, 79 °F, 84 %, WSW, 6 mph, 0 mph, 29.67 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 00:00:00
+1,12:30 AM, 84 °F, 79 °F, 84 %, WSW, 7 mph, 0 mph, 29.67 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 00:30:00
+2,1:00 AM, 84 °F, 79 °F, 84 %, SW, 6 mph, 0 mph, 29.64 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 01:00:00
+3,1:30 AM, 84 °F, 79 °F, 84 %, SW, 7 mph, 0 mph, 29.64 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 01:30:00
+4,2:00 AM, 84 °F, 79 °F, 84 %, SSW, 7 mph, 0 mph, 29.64 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 02:00:00
+5,2:30 AM, 84 °F, 79 °F, 84 %, SSW, 6 mph, 0 mph, 29.64 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 02:30:00
+6,3:00 AM, 84 °F, 79 °F, 84 %, SSW, 5 mph, 0 mph, 29.61 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 03:00:00
+7,3:30 AM, 84 °F, 79 °F, 84 %, SW, 5 mph, 0 mph, 29.61 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 03:30:00
+8,4:00 AM, 84 °F, 79 °F, 84 %, SW, 5 mph, 0 mph, 29.61 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 04:00:00
+9,4:30 AM, 84 °F, 77 °F, 79 %, SW, 6 mph, 0 mph, 29.64 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 04:30:00
+10,5:00 AM, 84 °F, 79 °F, 84 %, SW, 5 mph, 0 mph, 29.64 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 05:00:00
+11,5:30 AM, 82 °F, 79 °F, 89 %, SW, 2 mph, 0 mph, 29.64 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 05:30:00
+12,6:00 AM, 82 °F, 79 °F, 89 %, W, 2 mph, 0 mph, 29.64 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 06:00:00
+13,6:30 AM, 84 °F, 79 °F, 84 %, VAR, 2 mph, 0 mph, 29.67 in, 0.0 in, Fair,2020-05-18,2020-05-18 06:30:00
+14,7:00 AM, 86 °F, 81 °F, 84 %, SW, 5 mph, 0 mph, 29.67 in, 0.0 in, Fair,2020-05-18,2020-05-18 07:00:00
+15,7:30 AM, 88 °F, 79 °F, 75 %, WSW, 5 mph, 0 mph, 29.67 in, 0.0 in, Fair,2020-05-18,2020-05-18 07:30:00
+16,8:00 AM, 88 °F, 79 °F, 75 %, WSW, 6 mph, 0 mph, 29.70 in, 0.0 in, Fair,2020-05-18,2020-05-18 08:00:00
+17,8:30 AM, 90 °F, 79 °F, 70 %, W, 6 mph, 0 mph, 29.70 in, 0.0 in, Fair,2020-05-18,2020-05-18 08:30:00
+18,9:00 AM, 91 °F, 79 °F, 66 %, WNW, 5 mph, 0 mph, 29.70 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 09:00:00
+19,9:30 AM, 91 °F, 75 °F, 59 %, W, 3 mph, 0 mph, 29.70 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 09:30:00
+20,10:00 AM, 93 °F, 73 °F, 52 %, VAR, 3 mph, 0 mph, 29.70 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 10:00:00
+21,10:30 AM, 93 °F, 72 °F, 49 %, VAR, 2 mph, 0 mph, 29.70 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 10:30:00
+22,11:00 AM, 93 °F, 73 °F, 52 %, W, 5 mph, 0 mph, 29.67 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 11:00:00
+23,11:30 AM, 95 °F, 73 °F, 49 %, VAR, 3 mph, 0 mph, 29.67 in, 0.0 in, Mostly Cloudy,2020-05-18,2020-05-18 11:30:00
+24,12:00 PM, 97 °F, 72 °F, 44 %, VAR, 5 mph, 0 mph, 29.64 in, 0.0 in, Mostly Cloudy,2020-05-18,2020-05-18 12:00:00
+25,12:30 PM, 97 °F, 70 °F, 41 %, VAR, 3 mph, 0 mph, 29.64 in, 0.0 in, Mostly Cloudy,2020-05-18,2020-05-18 12:30:00
+26,1:00 PM, 97 °F, 72 °F, 44 %, WSW, 6 mph, 0 mph, 29.61 in, 0.0 in, Mostly Cloudy,2020-05-18,2020-05-18 13:00:00
+27,1:30 PM, 97 °F, 70 °F, 41 %, WSW, 5 mph, 0 mph, 29.61 in, 0.0 in, Mostly Cloudy,2020-05-18,2020-05-18 13:30:00
+28,2:00 PM, 97 °F, 70 °F, 41 %, VAR, 3 mph, 0 mph, 29.58 in, 0.0 in, Mostly Cloudy,2020-05-18,2020-05-18 14:00:00
+29,2:30 PM, 97 °F, 70 °F, 41 %, VAR, 3 mph, 0 mph, 29.58 in, 0.0 in, Mostly Cloudy,2020-05-18,2020-05-18 14:30:00
+30,3:00 PM, 99 °F, 70 °F, 39 %, VAR, 3 mph, 0 mph, 29.58 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 15:00:00
+31,3:30 PM, 97 °F, 70 °F, 41 %, SSE, 7 mph, 0 mph, 29.55 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 15:30:00
+32,4:00 PM, 97 °F, 72 °F, 44 %, S, 9 mph, 0 mph, 29.58 in, 0.0 in, Mostly Cloudy,2020-05-18,2020-05-18 16:00:00
+33,4:30 PM, 93 °F, 75 °F, 56 %, S, 13 mph, 0 mph, 29.58 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 16:30:00
+34,5:00 PM, 93 °F, 75 °F, 56 %, S, 13 mph, 0 mph, 29.58 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 17:00:00
+35,5:30 PM, 90 °F, 77 °F, 66 %, S, 15 mph, 0 mph, 29.58 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 17:30:00
+36,6:00 PM, 90 °F, 79 °F, 70 %, S, 13 mph, 0 mph, 29.61 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 18:00:00
+37,6:30 PM, 90 °F, 79 °F, 70 %, S, 14 mph, 0 mph, 29.61 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 18:30:00
+38,7:00 PM, 88 °F, 79 °F, 75 %, S, 12 mph, 0 mph, 29.64 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 19:00:00
+39,7:30 PM, 88 °F, 79 °F, 75 %, SSE, 12 mph, 0 mph, 29.64 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 19:30:00
+40,8:00 PM, 88 °F, 79 °F, 75 %, S, 10 mph, 0 mph, 29.64 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 20:00:00
+41,8:30 PM, 88 °F, 79 °F, 75 %, S, 10 mph, 0 mph, 29.67 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 20:30:00
+42,9:00 PM, 88 °F, 79 °F, 75 %, S, 10 mph, 0 mph, 29.67 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 21:00:00
+43,9:30 PM, 88 °F, 77 °F, 70 %, S, 8 mph, 0 mph, 29.70 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 21:30:00
+44,10:00 PM, 88 °F, 77 °F, 70 %, S, 10 mph, 0 mph, 29.70 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 22:00:00
+45,10:30 PM, 86 °F, 77 °F, 74 %, SSW, 8 mph, 0 mph, 29.70 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 22:30:00
+46,11:00 PM, 86 °F, 77 °F, 74 %, SSW, 9 mph, 0 mph, 29.70 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 23:00:00
+47,11:30 PM, 86 °F, 79 °F, 79 %, SSW, 7 mph, 0 mph, 29.70 in, 0.0 in, Partly Cloudy,2020-05-18,2020-05-18 23:30:00

@@ -1,0 +1,49 @@
+,Time,Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Condition,Date,DateTime
+0,12:00 AM, 82 °F, 75 °F, 79 %, SE, 10 mph, 0 mph, 29.85 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 00:00:00
+1,12:30 AM, 82 °F, 75 °F, 79 %, SE, 10 mph, 0 mph, 29.85 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 00:30:00
+2,1:00 AM, 82 °F, 75 °F, 79 %, SE, 10 mph, 0 mph, 29.82 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 01:00:00
+3,1:30 AM, 82 °F, 75 °F, 79 %, SE, 9 mph, 0 mph, 29.82 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 01:30:00
+4,2:00 AM, 82 °F, 75 °F, 79 %, SE, 9 mph, 0 mph, 29.82 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 02:00:00
+5,2:30 AM, 82 °F, 75 °F, 79 %, SE, 9 mph, 0 mph, 29.82 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 02:30:00
+6,3:00 AM, 81 °F, 77 °F, 89 %, SE, 9 mph, 0 mph, 29.82 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 03:00:00
+7,3:30 AM, 81 °F, 77 °F, 89 %, SE, 9 mph, 0 mph, 29.82 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 03:30:00
+8,4:00 AM, 81 °F, 77 °F, 89 %, SE, 7 mph, 0 mph, 29.82 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 04:00:00
+9,4:30 AM, 81 °F, 77 °F, 89 %, SE, 10 mph, 0 mph, 29.82 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 04:30:00
+10,5:00 AM, 81 °F, 77 °F, 89 %, SE, 9 mph, 0 mph, 29.82 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 05:00:00
+11,5:30 AM, 81 °F, 77 °F, 89 %, SE, 9 mph, 0 mph, 29.82 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 05:30:00
+12,6:00 AM, 81 °F, 77 °F, 89 %, SE, 7 mph, 0 mph, 29.85 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 06:00:00
+13,6:30 AM, 82 °F, 77 °F, 84 %, SE, 7 mph, 0 mph, 29.85 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 06:30:00
+14,7:00 AM, 82 °F, 77 °F, 84 %, ESE, 5 mph, 0 mph, 29.85 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 07:00:00
+15,7:30 AM, 84 °F, 77 °F, 79 %, SE, 7 mph, 0 mph, 29.88 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 07:30:00
+16,8:00 AM, 86 °F, 75 °F, 70 %, SSE, 7 mph, 0 mph, 29.88 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 08:00:00
+17,8:30 AM, 86 °F, 75 °F, 70 %, SE, 8 mph, 0 mph, 29.88 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 08:30:00
+18,9:00 AM, 86 °F, 75 °F, 70 %, SE, 8 mph, 0 mph, 29.88 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 09:00:00
+19,9:30 AM, 88 °F, 75 °F, 66 %, SSE, 8 mph, 0 mph, 29.88 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 09:30:00
+20,10:00 AM, 88 °F, 73 °F, 62 %, SSE, 8 mph, 0 mph, 29.88 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 10:00:00
+21,10:30 AM, 90 °F, 73 °F, 59 %, SE, 9 mph, 0 mph, 29.88 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 10:30:00
+22,11:00 AM, 90 °F, 73 °F, 59 %, SE, 6 mph, 0 mph, 29.88 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 11:00:00
+23,11:30 AM, 91 °F, 72 °F, 52 %, ESE, 6 mph, 0 mph, 29.88 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 11:30:00
+24,12:00 PM, 91 °F, 73 °F, 55 %, SE, 5 mph, 0 mph, 29.85 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 12:00:00
+25,12:30 PM, 90 °F, 73 °F, 59 %, VAR, 5 mph, 0 mph, 29.85 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 12:30:00
+26,1:00 PM, 91 °F, 72 °F, 52 %, ESE, 5 mph, 0 mph, 29.82 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 13:00:00
+27,1:30 PM, 91 °F, 72 °F, 52 %, SSE, 5 mph, 0 mph, 29.79 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 13:30:00
+28,2:00 PM, 91 °F, 72 °F, 52 %, VAR, 3 mph, 0 mph, 29.79 in, 0.0 in, Mostly Cloudy,2020-04-11,2020-04-11 14:00:00
+29,2:30 PM, 91 °F, 73 °F, 55 %, SSE, 7 mph, 0 mph, 29.76 in, 0.0 in, Mostly Cloudy,2020-04-11,2020-04-11 14:30:00
+30,3:00 PM, 91 °F, 73 °F, 55 %, S, 8 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 15:00:00
+31,3:30 PM, 91 °F, 73 °F, 55 %, S, 8 mph, 0 mph, 29.73 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 15:30:00
+32,4:00 PM, 91 °F, 73 °F, 55 %, SSE, 8 mph, 0 mph, 29.73 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 16:00:00
+33,4:30 PM, 90 °F, 75 °F, 62 %, SSE, 7 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 16:30:00
+34,5:00 PM, 88 °F, 75 °F, 66 %, SSE, 10 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 17:00:00
+35,5:30 PM, 88 °F, 75 °F, 66 %, SSE, 12 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 17:30:00
+36,6:00 PM, 86 °F, 75 °F, 70 %, SE, 12 mph, 0 mph, 29.76 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 18:00:00
+37,6:30 PM, 86 °F, 75 °F, 70 %, SSE, 8 mph, 0 mph, 29.79 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 18:30:00
+38,7:00 PM, 84 °F, 75 °F, 74 %, SE, 8 mph, 0 mph, 29.79 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 19:00:00
+39,7:30 PM, 84 °F, 75 °F, 74 %, ESE, 6 mph, 0 mph, 29.82 in, 0.0 in, Fair,2020-04-11,2020-04-11 19:30:00
+40,8:00 PM, 84 °F, 73 °F, 70 %, SE, 7 mph, 0 mph, 29.82 in, 0.0 in, Fair,2020-04-11,2020-04-11 20:00:00
+41,8:30 PM, 84 °F, 73 °F, 70 %, SE, 7 mph, 0 mph, 29.82 in, 0.0 in, Fair,2020-04-11,2020-04-11 20:30:00
+42,9:00 PM, 84 °F, 75 °F, 74 %, SE, 8 mph, 0 mph, 29.85 in, 0.0 in, Fair,2020-04-11,2020-04-11 21:00:00
+43,9:30 PM, 84 °F, 73 °F, 70 %, SE, 9 mph, 0 mph, 29.85 in, 0.0 in, Fair,2020-04-11,2020-04-11 21:30:00
+44,10:00 PM, 82 °F, 73 °F, 74 %, SE, 9 mph, 0 mph, 29.85 in, 0.0 in, Fair,2020-04-11,2020-04-11 22:00:00
+45,10:30 PM, 82 °F, 75 °F, 79 %, SE, 9 mph, 0 mph, 29.85 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 22:30:00
+46,11:00 PM, 82 °F, 73 °F, 74 %, SSE, 5 mph, 0 mph, 29.85 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 23:00:00
+47,11:30 PM, 82 °F, 75 °F, 79 %, S, 8 mph, 0 mph, 29.85 in, 0.0 in, Partly Cloudy,2020-04-11,2020-04-11 23:30:00
