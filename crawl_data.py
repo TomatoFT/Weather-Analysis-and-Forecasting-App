@@ -71,7 +71,7 @@ class Data_Processing:
                 real_data.append(col)
 
 
-            file = open(f'dataset/Weather_data_of_HCM_{self.place}_at_date_{date}.csv', "w")
+            file = open(f'datasetDN/dataset/Weather_data_of_DN_{self.place}_at_date_{date}.csv', "w+")
             for head in header:
                 file.write(head)
                 file.write(', ')
@@ -83,7 +83,7 @@ class Data_Processing:
                     file.write(', ')
                 file.write('\n')
             file.close()
-            self.list_file.append(f'dataset/Weather_data_of_HCM_{self.place}_at_date_{date}.csv')
+            self.list_file.append(f'datasetDN/dataset/Weather_data_of_DN_{self.place}_at_date_{date}.csv')
             print('processing_time:', time.time() - start, ' seconds. ', 'Completed: ',countDate, '/ ', self.days)
         self.driver.close()
 
@@ -98,7 +98,6 @@ class Data_Processing:
             # df.columns = ['Time', 'Temperature', 'Dew Point', 'Humidity', 'Wind','Wind Speed', 'Wind Gust', 'Pressure', 'Precip.', 'Condition',' ']
             df.rename(columns={' Temperature': 'Temperature', ' Dew Point': 'Dew Point', ' Humidity': 'Humidity', ' Wind': 'Wind',' Wind Speed': 'Wind Speed',
                                 ' Wind Gust': 'Wind Gust', ' Pressure': 'Pressure', ' Precip.': 'Precip.', ' Condition': 'Condition'}, inplace=True)
-            print(df.columns)
             if ' ' in df.columns:
                 del df[' ']
             for col in df.columns:
@@ -111,23 +110,26 @@ class Data_Processing:
                     pass
             df['Date']=file[-14:-4]
             for i in range(0, len(df['Temperature'])):
-                df['Temperature'][i] = float(df['Temperature'][i][1:-3])
-                df['Dew Point'][i] = float(df['Dew Point'][i][1:-3])
-                df['Humidity'][i] = int(df['Humidity'][i][1:-2])
-                df['Wind Speed'][i] = int(df['Wind Speed'][i][1:-4])
-                df['Pressure'][i] = float(df['Pressure'][i][1:-3])
-                df['Precip.'][i] = float(df['Precip.'][i][1:-2])
-                df['Wind Gust'][i] = float(df['Wind Gust'][i][1:-3])
+                try:
+                    df['Temperature'][i] = float(df['Temperature'][i].replace('°F','').replace(' ',''))
+                    df['Dew Point'][i] = float(df['Dew Point'][i].replace('°F','').replace(' ',''))
+                    df['Humidity'][i] = float(df['Humidity'][i].replace('%','').replace(' ',''))
+                    df['Wind Speed'][i] = float(df['Wind Speed'][i].replace('mph','').replace(' ',''))
+                    df['Pressure'][i] = float(df['Pressure'][i].replace('in','').replace(' ',''))
+                    df['Wind Gust'][i] = float(df['Wind Gust'][i].replace('mph','').replace(' ',''))
+                except:
+                    continue
             df['DateTime']=pd.to_datetime(df['Date'] + ' ' + df['Time'])
             df.to_csv(file)
 
     def merge_data(self):
-        filelist = os.listdir('dataset')
+        # filelist = os.listdir('dataset')
+        filelist = self.list_file
         c = 0
         name_list = []
-        for file in filelist:
-            filelist[c] = 'dataset/' + file
-            c+=1
+        # for file in filelist:
+        #     filelist[c] = 'dataset/' + file
+        #     c+=1
         filelist = sorted(filelist, key=os.path.getctime)
         df_list = []
 
@@ -140,6 +142,8 @@ class Data_Processing:
             df_list.append(df)
             name_list.append(df.columns)
         # print(name_list)
-
+        
         new_df = pd.concat(df_list, ignore_index=True)
-        new_df.to_csv('Total_weather_dataset_in_HCM.csv')
+        new_df = new_df.sort_values(by='DateTime')
+        
+        new_df.to_csv('Total_weather_dataset_in_DN.csv')
