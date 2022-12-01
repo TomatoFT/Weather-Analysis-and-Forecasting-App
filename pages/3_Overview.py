@@ -157,7 +157,7 @@ fig1.update_layout(uniformtext_minsize=12, uniformtext_mode='hide')
 fig2 = px.pie(df_HN_pie_1, values='Condition',names=df_HN_pie_1.index, labels=df_HN_pie_1.index, title='Condition distribution in HN')
 fig2.update_traces(textposition='inside')
 fig2.update_layout(uniformtext_minsize=12, uniformtext_mode='hide')
-fig3 = px.pie(df_DN_pie_1, values='Condition',names=df_DN_pie_1, labels=df_DN_pie_1.index, title='Condition distribution in DN')
+fig3 = px.pie(df_DN_pie_1, values='Condition',names=df_DN_pie_1.index, labels=df_DN_pie_1.index, title='Condition distribution in DN')
 fig3.update_traces(textposition='inside')
 fig3.update_layout(uniformtext_minsize=12, uniformtext_mode='hide')
 
