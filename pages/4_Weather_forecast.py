@@ -15,7 +15,7 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(["Temperature", "Humidity", "Pressure", "
 with tab1:
     st.header("Temperature")
     item = "Temperature"
-    model = load_model(f'/home/tomato/Desktop/UIT/DS105/model/model_temperature_{place}.h5')
+    model = load_model(f'model/model_temperature_{place}.h5')
     now = df.iloc[-1].Date
     print(now)
     timestep = sorted([ConvertTo24h(daytime) for daytime in set(df.Time)])
@@ -43,7 +43,7 @@ with tab1:
 with tab2:
     st.header("Humidity")
     item = "Humidity"
-    model = load_model(f'/home/tomato/Desktop/UIT/DS105/model/model_humid_{place}.h5')
+    model = load_model(f'model/model_humid_{place}.h5')
     now = df.iloc[-1].Date
     timestep = sorted([ConvertTo24h(daytime) for daytime in set(df.Time)])
     test = np.array(df[item][28598:])
@@ -69,7 +69,7 @@ with tab2:
 with tab3:
     st.header("Pressure")
     item = "Pressure"
-    model = load_model(f'/home/tomato/Desktop/UIT/DS105/model/model_Pressure_{place}.h5')
+    model = load_model(f'model/model_Pressure_{place}.h5')
     now = df.iloc[-1].Date
     timestep = sorted([ConvertTo24h(daytime) for daytime in set(df.Time)])
     test = np.array(df[item][28598:])
@@ -95,7 +95,7 @@ with tab3:
 with tab4:
     st.header("Dew Point")
     item = "Dew Point"
-    model = load_model(f'/home/tomato/Desktop/UIT/DS105/model/model_dew_{place}.h5')
+    model = load_model(f'model/model_dew_{place}.h5')
     now = df.iloc[-1].Date
     timestep = sorted([ConvertTo24h(daytime) for daytime in set(df.Time)])
     df[item]=round((df[item]-32)*5/9,1)
@@ -122,7 +122,7 @@ with tab4:
 with tab5:
     st.header("Wind Speed")
     item = "Wind Speed"
-    model = load_model(f'/home/tomato/Desktop/UIT/DS105/model/model_wind_speed_{place}.h5')
+    model = load_model(f'model/model_wind_speed_{place}.h5')
     now = df.iloc[-1].Date
     timestep = sorted([ConvertTo24h(daytime) for daytime in set(df.Time)])
     df[item]=round((df[item]-32)*5/9,1)
