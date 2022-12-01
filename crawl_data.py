@@ -9,13 +9,14 @@ from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import os
 class Data_Processing: 
-    def __init__(self, list_file=[] ,place='tan-binh', days=1000, driver=webdriver.Firefox()):
+    def __init__(self, list_file=[] ,place='tan-binh',bale='VVTS', days=1000, driver=webdriver.Firefox()):
         self.days = days
         self.driver = driver
         self.time_step = []
         self.list_file = list_file
         self.board = 0
         self.place = place
+        self.bale = bale
 
     def crawl_data(self, start_from='now'):
         for i in range(0,self.days):
@@ -32,8 +33,8 @@ class Data_Processing:
             sleep_time = 4.5
             if self.board % 150 == 0:
                 sleep_time += 0.5
-            self.driver.get(f'https://www.wunderground.com/history/daily/vn/{self.place}/VVTS/date/{date}')
-            print(f'https://www.wunderground.com/history/daily/vn/{self.place}/VVTS/date/{date}')
+            self.driver.get(f'https://www.wunderground.com/history/daily/vn/{self.place}/{self.bale}/date/{date}')
+            print(f'https://www.wunderground.com/history/daily/vn/{self.place}/{self.bale}/date/{date}')
             content = WebDriverWait(self.driver, 3000).until(EC.presence_of_all_elements_located((By.XPATH,"/html/body/app-root/app-history/one-column-layout/wu-header/sidenav/mat-sidenav-container/mat-sidenav-content/div/section/div[2]/div[1]/div[5]/div[1]/div/lib-city-history-observation/div/div[2]")))
             header, data, real_data = [], [], []
 
@@ -71,7 +72,7 @@ class Data_Processing:
                 real_data.append(col)
 
 
-            file = open(f'datasetDN/dataset/Weather_data_of_DN_{self.place}_at_date_{date}.csv', "w+")
+            file = open(f'datasetDN/dataset/Weather_data_of_HCM_{self.place}_at_date_{date}.csv', "w+")
             for head in header:
                 file.write(head)
                 file.write(', ')
@@ -83,7 +84,7 @@ class Data_Processing:
                     file.write(', ')
                 file.write('\n')
             file.close()
-            self.list_file.append(f'datasetDN/dataset/Weather_data_of_DN_{self.place}_at_date_{date}.csv')
+            self.list_file.append(f'datasetDN/dataset/Weather_data_of_HCM_{self.place}_at_date_{date}.csv')
             print('processing_time:', time.time() - start, ' seconds. ', 'Completed: ',countDate, '/ ', self.days)
         self.driver.close()
 
@@ -94,7 +95,7 @@ class Data_Processing:
         filelist = sorted(filelist, key=os.path.getctime)
         c=0
         for file in filelist:
-            df = pd.read_csv(file,  on_bad_lines='skip')
+            df = pd.read_csv(file,  on_bad_lines='skip', encoding= 'unicode_escape')
             # df.columns = ['Time', 'Temperature', 'Dew Point', 'Humidity', 'Wind','Wind Speed', 'Wind Gust', 'Pressure', 'Precip.', 'Condition',' ']
             df.rename(columns={' Temperature': 'Temperature', ' Dew Point': 'Dew Point', ' Humidity': 'Humidity', ' Wind': 'Wind',' Wind Speed': 'Wind Speed',
                                 ' Wind Gust': 'Wind Gust', ' Pressure': 'Pressure', ' Precip.': 'Precip.', ' Condition': 'Condition'}, inplace=True)
@@ -119,7 +120,7 @@ class Data_Processing:
                     df['Wind Gust'][i] = float(df['Wind Gust'][i].replace('mph','').replace(' ',''))
                 except:
                     continue
-            df['DateTime']=pd.to_datetime(df['Date'] + ' ' + df['Time'])
+            df['DateTime']=pd.to_datetime(df['Date'] + ' ' + df['Time'])                                                     
             df.to_csv(file)
 
     def merge_data(self):
@@ -146,4 +147,4 @@ class Data_Processing:
         new_df = pd.concat(df_list, ignore_index=True)
         new_df = new_df.sort_values(by='DateTime')
         
-        new_df.to_csv('Total_weather_dataset_in_DN.csv')
+        new_df.to_csv('Total_weather_dataset_in_HN.csv')

@@ -1,0 +1,4 @@
+,Time,Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Condition,Date,DateTime
+0,10:30 PM,86.0,79.0,79.0, W,1.0,0.0,29.67, 0.0 in, Fair,2019-06-10,2019-06-10 22:30:00
+1,11:00 PM,86.0,79.0,79.0, SW,2.0,0.0,29.67, 0.0 in, Fair,2019-06-10,2019-06-10 23:00:00
+2,11:30 PM,86.0,79.0,79.0, WSW,1.0,0.0,29.67, 0.0 in, Fair,2019-06-10,2019-06-10 23:30:00
