@@ -1,7 +1,7 @@
 # Weather-Dashboard-and-Forecasting
 
 ## Introduction
-This is the weather analysis and forecasting app official repository. In this project, we crawl the weather data from Ha Noi, Da Nang and Ho Chi Minh city which is 3 big cities in 3 different region of Vietnam. Ha Noi represented for the North Region, Da Nang represented for the Middle Region and Ho Chi Minh City represented for the South Region. We collect the data from /// to ///. You can try the demo in this [link](https://tomatoft-weather-dashboard-and-forecasting-homepage-wqbt9g.streamlit.app/Weather_forecast?fbclid=IwAR3XLQsYB4ul98gnzCzpgoYmbH261f_gEz3cUBAqwtNWjpNGOpt8SYHYEmg). 
+This is the weather analysis and forecasting app official repository. In this project, we crawl the weather data from Ha Noi, Da Nang and Ho Chi Minh city which is 3 big cities in 3 different region of Vietnam. Ha Noi represented for the North Region, Da Nang represented for the Middle Region and Ho Chi Minh City represented for the South Region. We collect the data from 02/01/2022 to 29/11/2022. You can try the demo in this [link](https://tomatoft-weather-dashboard-and-forecasting-homepage-wqbt9g.streamlit.app/Weather_forecast?fbclid=IwAR3XLQsYB4ul98gnzCzpgoYmbH261f_gEz3cUBAqwtNWjpNGOpt8SYHYEmg). 
 
 The source of the data is here: https://www.wunderground.com/
 
@@ -34,5 +34,4 @@ Install the depedencies
 ```
 pip install -r requirements.txt
 ```
-
-```
+I am reconstruct the file so the rest of it will be in the next several days.
